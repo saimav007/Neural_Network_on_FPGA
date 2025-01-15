@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../neural_network_on_fpga.srcs/sources_1/new/mac_unit.v" \
+"../../../../neural_network_on_fpga.srcs/sim_1/new/test_mac_unit.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

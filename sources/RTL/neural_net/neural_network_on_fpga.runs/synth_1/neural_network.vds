@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Wed Jan 15 23:45:31 2025
+# Process ID: 1412
+# Current directory: C:/Users/wanis/OneDrive/Desktop/neural_net/neural_network_on_fpga.runs/synth_1
+# Command line: vivado.exe -log neural_network.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source neural_network.tcl
+# Log file: C:/Users/wanis/OneDrive/Desktop/neural_net/neural_network_on_fpga.runs/synth_1/neural_network.vds
+# Journal file: C:/Users/wanis/OneDrive/Desktop/neural_net/neural_network_on_fpga.runs/synth_1\vivado.jou
+# Running On: Snjay_Wani, OS: Windows, CPU Frequency: 1190 MHz, CPU Physical cores: 2, Host memory: 8361 MB
+#-----------------------------------------------------------
+source neural_network.tcl -notrace
+create_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 469.941 ; gain = 183.613
+Command: synth_design -top neural_network -part xc7z020clg400-1
+0 Infos, 0 Warnings, 0 Critical Warnings and 1 Errors encountered.
+synth_design failed
+ERROR: [Common 17-1293] The path 'C:/Users/wanis/OneDrive/Desktop/neural_net/neural_network_on_fpga.cache/wt' already exists, is a directory, but is not writable.
+INFO: [Common 17-206] Exiting Vivado at Wed Jan 15 23:45:43 2025...
